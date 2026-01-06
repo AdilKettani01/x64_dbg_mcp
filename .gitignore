@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.env
+release/
+.vs/
+bridge/*.log
+native/x64dbg_mcp_native/build/
+native/x64dbg_mcp_native/build-x32/

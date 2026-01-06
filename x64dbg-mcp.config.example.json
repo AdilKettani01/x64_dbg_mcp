@@ -1,0 +1,31 @@
+{
+  "transport": "tcp",
+  "host": "127.0.0.1",
+  "port": 31337,
+  "pipeName": "",
+  "connectTimeoutMs": 2000,
+  "requestTimeoutMs": 3000,
+  "retry": {
+    "retries": 2,
+    "backoffMs": 200,
+    "maxBackoffMs": 2000
+  },
+  "events": [
+    "breakpoint",
+    "system_breakpoint",
+    "stop_debug",
+    "create_process",
+    "exit_process",
+    "create_thread",
+    "exit_thread",
+    "load_dll",
+    "unload_dll"
+  ],
+  "eventQueueLimit": 1000,
+  "security": {
+    "allowPids": [],
+    "denyPids": [],
+    "allowNames": [],
+    "denyNames": []
+  }
+}
